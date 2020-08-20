@@ -25,14 +25,14 @@ Text Domain: accelerate-theme-child
 }
 
 .blog-post {
-  width: 50%;
+  width: 75%;
   float: left;
   margin-bottom: 2em;
 }
 
 .blog-post h4 {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
-  color: #a6a6a6;
+  color: #45ac9d;
   text-transform: uppercase;
   margin: 2em 0 0.5em;
 }
