@@ -24,15 +24,47 @@ Text Domain: accelerate-theme-child
   background: #45ac9d;
 }
 
+#primary {
+  margin-bottom: 50px;
+}
+/* Home Page Featured Work Section */
+
+.featured-work {
+  margin-bottom: 50px;
+}
+.featured-work h4 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0px 0 50px 0;
+  font-weight: bold;
+}
+
+.featured-work ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.individual-case-studies h3 a {
+  display: flex;
+  justify-content: center;
+  color: #3b3b3b;
+  font-family: "Open Sans", sans-serif;
+  size: 16.5px;
+  font-weight: 500;
+}
+
 .blog-post {
-  width: 75%;
+  width: 50%;
   float: left;
   margin-bottom: 2em;
 }
 
 .blog-post h4 {
-  font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
-  color: #45ac9d;
+  font-family: "Open Sans", sans-serif;
+  color: #acacac;
   text-transform: uppercase;
   margin: 2em 0 0.5em;
 }
@@ -42,8 +74,78 @@ Text Domain: accelerate-theme-child
 }
 
 .read-more-link {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75em;
+  margin-top: 50px;
   font-weight: 700;
   color: #45ac9d;
   text-transform: uppercase;
+}
+
+/** case_studies **/
+.case-study-sidebar {
+  font-family: "Open-Sans", sans-serif;
+  float: left;
+  width: 33%;
+  padding: 0 20px 0 0;
+}
+
+.case-study-images {
+  float: left;
+  width: 66%;
+  padding: 0 0 0 50px;
+  max-width: 100%;
+}
+
+.case-study h2 {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+  color: #3b3b3b;
+}
+
+.case-study h2 a {
+  color: #3b3b3b;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+}
+.case-study h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #acacac;
+  font-weight: 250;
+  letter-spacing: -0.1em;
+}
+
+.case-study h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: -0.1em;
+  color: #3b3b3b;
+}
+
+.case-study p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.case-study a {
+  text-transform: uppercase;
+  color: #45ac9d;
+}
+
+/** Case Studies Archive Page **/
+
+#case-study-container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+#case-study-container img {
+  border: 5px solid blue;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
