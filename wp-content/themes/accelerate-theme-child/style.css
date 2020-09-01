@@ -83,6 +83,11 @@ Text Domain: accelerate-theme-child
 }
 
 /** case_studies **/
+
+.case-study {
+  width: 100%;
+  height: auto;
+}
 .case-study-sidebar {
   font-family: "Open-Sans", sans-serif;
   float: left;
@@ -144,8 +149,35 @@ Text Domain: accelerate-theme-child
 }
 
 #case-study-container img {
-  border: 5px solid blue;
   width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+div.case-study-images img {
+  width: 100%;
+  height: auto;
+}
+
+/** Social Nav Menu **/
+
+.social-media-navigation ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.social-media-navigation li {
+  background-color: black;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin: 0.25em;
+  text-align: center;
+  padding: 0.25px;
+}
+
+.social-media-navigation li a {
+  color: white;
 }
