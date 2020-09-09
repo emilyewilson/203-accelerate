@@ -181,3 +181,47 @@ div.case-study-images img {
 .social-media-navigation li a {
   color: white;
 }
+
+/*** CONTACT US PAGE ***/
+
+.nf-field {
+  font-family: "Open Sans", sans-serif;
+}
+
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3,
+#nf-label-field-4 {
+  font-size: 14px;
+}
+
+#nf-field-1-container {
+  color: #2b2b2b;
+  width: 40%;
+  float: left;
+}
+
+#nf-field-2-container {
+  color: #2b2b2b;
+  width: 40%;
+  float: right;
+  clear: both;
+}
+
+#nf-field-3-container {
+  color: #2b2b2b;
+  width: 100%;
+}
+
+#nf-field-1,
+#nf-field-2,
+#nf-field-3 {
+  background: white;
+}
+
+#nf-field-4 {
+  background: #45ac9d;
+  color: white;
+  float: right;
+  width: 30%;
+}
