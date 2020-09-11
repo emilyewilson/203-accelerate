@@ -19,7 +19,7 @@ add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
 // Adding custom post types
 function create_custom_post_types() {
-	// Adding custom post type - Case Studies
+	// Adding custom post type - Case Studies + About Page
     register_post_type( 'case_studies',
         array(
             'labels' => array(
@@ -31,5 +31,6 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+    
 }
 add_action( 'init', 'create_custom_post_types' );

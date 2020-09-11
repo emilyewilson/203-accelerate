@@ -14,9 +14,9 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content sidebar">
-		<div class="main-content" role="main">
-
+    <div id="primary-two" class="site-content sidebar">
+        <div class="main-content-two" role="main">
+        
             <?php while ( have_posts() ) : the_post(); 
                 $size = "full";
                 $services = get_field('services');

@@ -27,10 +27,15 @@ Text Domain: accelerate-theme-child
 #primary {
   margin-bottom: 50px;
 }
+
+.index-page {
+  margin-top: 20px; /** creates margin at top of blog posts page **/
+}
+
 /* Home Page Featured Work Section */
 
 .featured-work {
-  margin-bottom: 50px;
+  margin: 50px 0 50px 0;
 }
 .featured-work h4 {
   text-align: center;
@@ -84,10 +89,22 @@ Text Domain: accelerate-theme-child
 
 /** case_studies **/
 
+#primary-two {
+  margin-top: 50px;
+  margin-bottom: 50px;
+} /** created this unique id on the single case studies page so I could manage this top and bottom margin differently from the contact us page **/
+
+.main-content-two {
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+} /** created this unique class on the single case studies page so I could manage this width differently from the contact us page **/
+
 .case-study {
   width: 100%;
   height: auto;
 }
+
 .case-study-sidebar {
   font-family: "Open-Sans", sans-serif;
   float: left;
@@ -184,6 +201,26 @@ div.case-study-images img {
 
 /*** CONTACT US PAGE ***/
 
+#primary {
+  margin-bottom: 20px;
+}
+
+#main {
+  margin-bottom: 0;
+}
+
+.main-content {
+  max-width: 65%;
+  margin: auto;
+  padding: 0;
+}
+
+.single-case {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
 .nf-field {
   font-family: "Open Sans", sans-serif;
 }
@@ -195,17 +232,18 @@ div.case-study-images img {
   font-size: 14px;
 }
 
-#nf-field-1-container {
+div #nf-field-1-container {
   color: #2b2b2b;
-  width: 40%;
+  width: 49%;
   float: left;
+  clear: none;
 }
 
-#nf-field-2-container {
+div #nf-field-2-container {
   color: #2b2b2b;
-  width: 40%;
+  width: 49%;
   float: right;
-  clear: both;
+  clear: none;
 }
 
 #nf-field-3-container {
@@ -223,5 +261,7 @@ div.case-study-images img {
   background: #45ac9d;
   color: white;
   float: right;
-  width: 30%;
+  width: 35%;
 }
+
+/*** ABOUT PAGE ***/
