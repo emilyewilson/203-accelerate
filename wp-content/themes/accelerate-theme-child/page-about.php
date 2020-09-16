@@ -10,8 +10,15 @@
 
 get_header(); ?>
 
-	<div id="primary">
-		<div class="main-content" role="main">
+<div id="primary" class="site-content sidebar">
+<div class="main-content-two" role="main"> 
+
+		<div class="about-hero">
+			<h1>Accelerate is a strategy and marketing agency<br>
+			located in the heart of NYC. Our goal is to build<br>
+			businesses by making our clients visible and<br>
+			making their customers smile.</h1>
+		</div>
 			<?php while ( have_posts() ) : the_post(); 
 				$size = "full";
 				$service = get_field('service');
@@ -32,33 +39,47 @@ get_header(); ?>
                 <h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
 
-                <h3><?php echo $service; ?></h3>
-                <h4><?php echo $description; ?></h4>
-                <?php if($icon_1) { 
+			<div class="service-container">
+				<?php if($icon_1) { 
                     echo wp_get_attachment_image( $icon_1, $size ); 
-                    } ?>
+					} ?>
+					<h3><?php echo $service; ?></h3>
+                	<p><?php echo $description; ?></p>
+			</div>
 
+			<div class="service-container">
 				<h3><?php echo $service_2; ?></h3>
-                <h4><?php echo $description_2; ?></h4>
-                <?php if($icon_2) { 
+                <p><?php echo $description_2; ?></p>
+				
+				<?php if($icon_2) { 
                     echo wp_get_attachment_image( $icon_2, $size ); 
                     } ?>
+			</div>
 
-				<h3><?php echo $service_3; ?></h3>
-                <h4><?php echo $description_3; ?></h4>
-                <?php if($icon_3) { 
+			<div class="service-container">
+				<?php if($icon_3) { 
                     echo wp_get_attachment_image( $icon_3, $size ); 
-                    } ?>
+					} ?>
+				<h3><?php echo $service_3; ?></h3>
+                <p><?php echo $description_3; ?></p>
+                
+			</div>
 
+			<div class="service-container">
 				<h3><?php echo $service_4; ?></h3>
-                <h4><?php echo $description_4; ?></h4>
+                <p><?php echo $description_4; ?></p>
 				<?php if($icon_4) { 
                     echo wp_get_attachment_image( $icon_4, $size ); 
-                    } ?>	
-            	</div>
-        </div>
+					} ?>	
+			</div>
+        </div> <!-- about -->
 
 			<?php endwhile; // end of the loop. ?>
+
+		<div class="action">
+			<h2>Interested in working with us?</h2>
+			<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
+		</div>
 		</div><!-- .main-content -->
     </div><!-- #primary -->
 
