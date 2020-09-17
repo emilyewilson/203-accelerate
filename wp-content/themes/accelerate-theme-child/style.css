@@ -209,7 +209,7 @@ div.case-study-images img {
 
 /*** CONTACT US PAGE ***/
 
-#primary {
+.page-id-47360 {
   margin-bottom: 20px;
 }
 
@@ -217,7 +217,7 @@ div.case-study-images img {
   margin-bottom: 0;
 }
 
-.main-content {
+.page-id-47360 .main-content {
   max-width: 65%;
   margin: auto;
   padding: 0;
@@ -305,18 +305,38 @@ div #nf-field-2-container {
   color: #3b3b3b;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  size: 25px;
+  font-size: 1.5625em;
+}
+
+.about span {
+  text-align: center;
 }
 
 .about p {
   color: #3b3b3b;
   font-family: "Open Sans", sans-serif;
-  size: 16.5px;
+  font-size: 1.03em;
   font-weight: 400;
 }
 
 .service-container {
   display: flex;
+  margin: 40px 0;
+}
+
+.service-container img {
+}
+
+.service-text-right {
+  width: 70%;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.service-text-left {
+  width: 70%;
+  text-align: left;
+  margin-right: 70px;
 }
 
 .about {
@@ -332,14 +352,14 @@ div #nf-field-2-container {
 .action h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  size: 25px;
+  font-size: 1.5625em;
   color: #3a3939;
   text-align: center;
-  margin: 35px 0 35px 0;
+  margin: 70px 0 20px 0;
   float: left;
 }
 
 .action .button {
-  margin: 35px 0 35px 0;
+  margin: 70px 0 20px 0;
   float: right;
 }
