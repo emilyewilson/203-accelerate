@@ -10,16 +10,16 @@
 
 get_header(); ?>
 
-<div id="primary" class="site-content sidebar">
-<div class="main-content-three" role="main"> 
-
-		<div class="about-hero">
-			<h1>Accelerate is a strategy and marketing agency<br>
+<div class="about-hero">
+<h1>Accelerate is a strategy and marketing agency<br>
 			located in the heart of NYC. Our goal is to build<br>
 			businesses by making our clients visible and<br>
 			making their customers smile.</h1>
 		</div>
+<div id="primary" class="site-content sidebar">
+<div class="main-content-three" role="main"> 
 
+		
 		
 			<?php while ( have_posts() ) : the_post(); 
 				$size = "full";

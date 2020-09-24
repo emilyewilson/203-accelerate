@@ -18,6 +18,11 @@ Text Domain: accelerate-theme-child
   src: url("fonts/Monsterrat-Bold.fft");
 }
 
+/*** COLORS 
+clickable links, buttons and social media icons:  #1d9ec9
+header bar: #143257
+**/
+
 /* HOMEPAGE STYLES */
 .home-page {
   background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover
@@ -25,11 +30,11 @@ Text Domain: accelerate-theme-child
 }
 
 #masthead {
-  background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #143257;
 }
 
 .button {
-  background: #45ac9d;
+  background: #1d9ec9;
 }
 
 #primary {
@@ -91,8 +96,37 @@ Text Domain: accelerate-theme-child
   font-size: 0.75em;
   margin-top: 50px;
   font-weight: 700;
-  color: #45ac9d;
+  color: #1d9ec9;
   text-transform: uppercase;
+}
+
+/** BLOG PAGE AND INDIVIDUAL POSTS **/
+.entry-time {
+  color: #1d9ec9;
+}
+
+.read-more-link span {
+  color: #1d9ec9;
+}
+
+#sidebar .widget_search #searchsubmit {
+  background-color: #1d9ec9;
+}
+
+#sidebar h2 {
+  color: #1d9ec9;
+}
+
+.entry-summary a {
+  color: #1d9ec9;
+}
+
+#reply-title {
+  color: #1d9ec9;
+}
+
+#submit {
+  background-color: #1d9ec9;
 }
 
 /** case_studies **/
@@ -162,7 +196,7 @@ Text Domain: accelerate-theme-child
 
 .case-study a {
   text-transform: uppercase;
-  color: #45ac9d;
+  color: #1d9ec9;
 }
 
 /** Case Studies Archive Page **/
@@ -194,7 +228,7 @@ div.case-study-images img {
 }
 
 .social-media-navigation li {
-  background-color: black;
+  background-color: #1d9ec9;
   width: 23px;
   height: 23px;
   border-radius: 50%;
@@ -266,7 +300,7 @@ div #nf-field-2-container {
 }
 
 #nf-field-4 {
-  background: #45ac9d;
+  background: #1d9ec9;
   color: white;
   float: right;
   width: 35%;
@@ -277,7 +311,7 @@ div #nf-field-2-container {
 .about-hero {
   background: url("img/taxi-photo.jpg") no-repeat scroll bottom center / cover;
   width: 100%;
-  height: 210px;
+  height: 300px;
   margin: auto 0;
   padding: 35px 0;
 }
@@ -288,9 +322,11 @@ div #nf-field-2-container {
   font-size: 1.35em;
   text-align: center;
   line-height: 35px;
+  letter-spacing: 1px;
   color: white;
   margin: auto;
-  width: 80%;
+  margin-top: 50px;
+  width: 90%;
 }
 
 .about h2 {
@@ -322,6 +358,7 @@ div #nf-field-2-container {
 .service-container {
   display: flex;
   margin: 40px 0;
+  align-items: center;
 }
 
 .service-container img {
@@ -362,4 +399,40 @@ div #nf-field-2-container {
 .action .button {
   margin: 70px 0 20px 0;
   float: right;
+}
+
+/** 404 PAGE **/
+
+#lost-page {
+  background: url("img/bridge.jpg") no-repeat scroll center / cover;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 900px;
+  align-content: center;
+}
+
+.lost-container {
+  width: 90%;
+  height: 500px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#lost-page h1 {
+  color: #143257;
+  font-size: 2.5em;
+  font-family: "Open Sans", sans-serif;
+}
+
+#lost-page p {
+  color: #143257;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+}
+
+#lost-page a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #143257;
 }
