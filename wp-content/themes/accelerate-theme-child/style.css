@@ -45,6 +45,14 @@ header bar: #143257
   margin-top: 20px; /** creates margin at top of blog posts page **/
 }
 
+#commentform a {
+  color: #1d9ec9;
+}
+
+.sfsi_icons_container_box_fully_container {
+  max-width: 350px;
+}
+
 /* Home Page Featured Work Section */
 
 .featured-work {
@@ -75,23 +83,38 @@ header bar: #143257
 }
 
 .blog-post {
-  width: 50%;
+  width: 48%;
   float: left;
+  text-align: left;
   margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.twitter-feed {
+  width: 48%;
+  float: right;
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.blog-post h4,
+.twitter-feed h4 {
   font-family: "Open Sans", sans-serif;
   color: #acacac;
   text-transform: uppercase;
   margin: 2em 0 0.5em;
 }
 
-.blog-post h3 {
+.blog-post h3,
+.twitter-feed h3 {
   font-size: 1.5em;
 }
 
-.read-more-link {
+#ctf .ctf-item {
+  padding: 0;
+}
+
+.read-more-link,
+.twitter-link {
   font-family: "Montserrat", sans-serif;
   font-size: 0.75em;
   margin-top: 50px;
@@ -415,14 +438,19 @@ div #nf-field-2-container {
 .lost-container {
   width: 90%;
   height: 500px;
+  margin: auto;
   padding-top: 30px;
   text-align: center;
 }
 
+.lost-container h1 {
+  margin-top: 20px;
+}
+
 #lost-page h1 {
+  font-family: "Mountains of Christmas", cursive;
   color: #143257;
-  font-size: 2.5em;
-  font-family: "Open Sans", sans-serif;
+  font-size: 4em;
 }
 
 #lost-page p {

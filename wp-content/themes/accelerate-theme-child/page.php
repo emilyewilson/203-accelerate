@@ -20,8 +20,9 @@ get_header(); ?>
 			<h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
+			
 		</div><!-- .main-content -->
-
+		<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
 
 	</div><!-- #primary -->
 
